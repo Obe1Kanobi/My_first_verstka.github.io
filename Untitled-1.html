@@ -2,49 +2,57 @@
 <html>
 <head>
   <title>Моя первая вёрстка</title>
-  <link rel="stylesheet" type="text/css" href="Header_style.css">
-  <link rel="stylesheet" type="text/css" href="Vse_button.css">
+  <link rel="stylesheet" type="text/css" href="style/Header_style.css">
+  <link rel="stylesheet" type="text/css" href="style/Vse_button.css">
+  <link rel="stylesheet" type="text/css" href="style/Osnova.css">
 </head>
 <body>
-    <header>
-            <figure>
-                <img src="https://1.downloader.disk.yandex.ru/preview/135e1fd132c24506c882ae51930fdf1ac435f51b2eaf985ce213dcca4d80f141/inf/BMtaKEGMl9CrtsbeQDvrrvtM9xS7FTSlmLzJIW_darJLVL7X_hpA55r4b_troqWrsWIBSFOyZRZu7R2VxLlPIA%3D%3D?uid=1145648401&filename=logo.svg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1145648401&tknv=v2&size=890x872"
-                width="41" alt="Logo">
-            </figure>
-            <nav>
-                <a href="#">Home</a>
-                <a href="">Destinations</a>
-                <a href="">About</a>
-                <a href="">Partner</a>
-            </nav>
-            <button type="button" name="Login"> Login </button>
-            <button type="button" name="Register"> Register </button>
-            <h2>Explore and Travel</h2>
-            <figure>
-                <img src="https://3.downloader.disk.yandex.ru/preview/bc57031bb5d0852967b656715d76a8b2c072fce8dc3fdd5b64172076f2060efa/inf/4PzsBAkR48kjBHFYy2sCeHZPjCfTrmWZG6J4b92-N8EH2MAmNZp2KB3rcFaXcvX-10Jkh2j7UymtCUqthv3BVw%3D%3D?uid=1145648401&filename=thousand-01%201.webp&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1145648401&tknv=v2&size=1851x903"
-                width="687" alt="Fone">
-            </figure>
-            <label>
-                <span>Holiday finder</span>
-            </label>
-            <br>
-            <select name="Header_select">
-                <option value="Location">Location</option>
-            </select>
-            <br>
-            <select name="Header_select">
-                <option value="Activity">Activity</option>
-            </select>
-            <br>
-            <select name="Header_select">
-                <option value="Grade">Grade</option>
-            </select>
-            <br>
-            <select name="Header_select">
-                <option value="Date">Date</option>
-            </select>
-            <br>
-            <button type="button" name="Vse_button"> Explore </button>
+    <header id="header">
+        <div class="container">
+            <div class="header__header">
+                <a class="header__logo">
+                    <img class="header__logo-pic" src="./Image/logo.svg"
+                    width="41" alt="Logo">
+                </a>
+                <nav class="header__navbar">
+                    <a class="header-link" href="">Home</a>
+                    <a class="header-link" href="">Destination</a>
+                    <a class="header-link" href="">About</a>
+                    <a class="header-link" href="">Partner</a>
+                    <button class="header__but">Login</button>
+                    <button class="header__but">Register</button>
+                </nav>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="flex-container__left">
+                <h1>Explore and Travel</h1>
+                <h2>Holiday finder</h2>
+                <div class="Header__select1">    
+                    <select class="Header_select">
+                        <option value="Location">Location</option>
+                    </select>
+                    <select class="Header_select">
+                        <option value="Activity">Activity</option>
+                    </select>
+                    <select class="Header_select">
+                        <option value="Grade">Grade</option>
+                    </select>
+                    <select class="Header_select">
+                        <option value="Date">Date</option>
+                    </select>
+                </div>
+                <div class="flex-container__left1">
+                    <button type="button" class="header__but left-btn">Explore</button>
+                </div>
+            </div>
+            <div class="flex-container__right">
+                <figure>
+                    <img src="Image/thousand-01 1.webp"
+                    width="400" alt="Fone">
+                </figure>
+            </div>
+        </div>   
     </header>
 </body>
 </html>
