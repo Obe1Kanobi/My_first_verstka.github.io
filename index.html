@@ -1,58 +1,128 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Моя первая вёрстка</title>
-  <link rel="stylesheet" type="text/css" href="style/Header_style.css">
-  <link rel="stylesheet" type="text/css" href="style/Vse_button.css">
-  <link rel="stylesheet" type="text/css" href="style/Osnova.css">
-</head>
-<body>
-    <header id="header">
-        <div class="container">
-            <div class="header__header">
-                <a class="header__logo">
-                    <img class="header__logo-pic" src="./Image/logo.svg"
-                    width="41" alt="Logo">
-                </a>
-                <nav class="header__navbar">
-                    <a class="header-link" href="">Home</a>
-                    <a class="header-link" href="">Destination</a>
-                    <a class="header-link" href="">About</a>
-                    <a class="header-link" href="">Partner</a>
-                    <button class="header__but">Login</button>
-                    <button class="header__but">Register</button>
-                </nav>
-            </div>
-        </div>
-        <div class="flex-container">
-            <div class="flex-container__left">
-                <h1>Explore and Travel</h1>
-                <h2>Holiday finder</h2>
-                <div class="Header__select1">    
-                    <select class="Header_select">
-                        <option value="Location">Location</option>
-                    </select>
-                    <select class="Header_select">
-                        <option value="Activity">Activity</option>
-                    </select>
-                    <select class="Header_select">
-                        <option value="Grade">Grade</option>
-                    </select>
-                    <select class="Header_select">
-                        <option value="Date">Date</option>
-                    </select>
-                </div>
-                <div class="flex-container__left1">
-                    <button type="button" class="header__but left-btn">Explore</button>
+    <head>
+        <title>Моя первая вёрстка</title>
+        <link rel="stylesheet" type="text/css" href="style/Header_style.css">
+        <link rel="stylesheet" type="text/css" href="style/Vse_button.css">
+        <link rel="stylesheet" type="text/css" href="style/Osnova.css">
+        <link rel="stylesheet" type="text/css" href="style/Section1.css">
+        <link rel="stylesheet" type="text/css" href="style/Section2.css">
+    </head>
+    <body>
+        <header id="header">
+            <div class="container">
+                <div class="header__header">
+                    <figure class="header__logo">
+                        <img class="header__logo-pic" src="./Image/logo.svg"
+                            width="41" alt="Logo">
+                    </figure>
+                    <nav class="header__navbar">
+                        <a class="header-link" href="">Home</a>
+                        <a class="header-link" href="">Destination</a>
+                        <a class="header-link" href="">About</a>
+                        <a class="header-link" href="">Partner</a>
+                        <button class="header__but">Login</button>
+                        <button class="header__but">Register</button>
+                    </nav>
                 </div>
             </div>
-            <div class="flex-container__right">
-                <figure>
-                    <img src="Image/thousand-01 1.webp"
-                    width="400" alt="Fone">
-                </figure>
+            <div class="flex-container">
+                <div class="flex-container__left">
+                    <h1>Explore and Travel</h1>
+                    <h2>Holiday finder</h2>
+                    <div class="Header__select1">
+                        <select class="Header_select">
+                            <option value="Location">Location</option>
+                        </select>
+                        <select class="Header_select">
+                            <option value="Activity">Activity</option>
+                        </select>
+                        <select class="Header_select">
+                            <option value="Grade">Grade</option>
+                        </select>
+                        <select class="Header_select">
+                            <option value="Date">Date</option>
+                        </select>
+                    </div>
+                    <div class="flex-container__left1">
+                        <button type="button" class="header__but left-btn">Explore</button>
+                    </div>
+                </div>
+                <div class="flex-container__right">
+                    <figure>
+                        <img src="Image/thousand-01 1.webp" alt="Fone">
+                    </figure>
+                </div>
             </div>
-        </div>   
-    </header>
-</body>
+        </header>
+        <main>
+            <section class="section1">
+                <div class="section1__flex">
+                    <figure>
+                        <img src="Image/thousand-02 1.webp" alt="Fone">
+                    </figure>
+                    <div class="section1__right">
+                        <div class="section1__text-right">
+                            <h2>A new way to explore the <br> world</h2>
+                            <p>For decades travellers have reached for Lonely
+                                Planet <br>
+                                books when looking to plan and execute their
+                                perfect <br>
+                                trip, but now, they can also let Lonely Planet
+                                Experiences <br>
+                                lead the way</p>
+                        </div>
+                        <div class="section1__button">
+                            <button type="button" class="header__but">Explore</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-featured">
+                <div class="section-featured__flex">
+                    <div class="section-featured__header">
+                        <h2>Featured destinations</h2>
+                        <div class="section-featured__header-view">
+                            View all
+                            <figure>
+                                <img src="Image/Vector 1.webp" alt="Fone">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="section-featured__img">
+                        <div class="section-featured__img-raja">
+                            <figure>
+                                <img src="Image/Image.webp" alt="Fone">
+                            </figure>
+                            <div class="section-featured__text-raja">
+                                <h4>Raja Ampat</h4> 
+                                Indonesia
+                            </div>
+                        </div>
+                        <div class="section-featured__img-fanjingshan">
+                            <figure>
+                                <img src="Image/Image2.webp" alt="Fone">
+                            </figure>
+                            <h4>Fanjingshan</h4>
+                            China
+                        </div>
+                        <div class="section-featured__img-vevey">
+                            <figure>
+                                <img src="Image/Image3.webp" alt="Fone">
+                            </figure>
+                            <h4>Vevey</h4>
+                            Switzerland
+                        </div>
+                        <div class="section-featured__img-vevey">
+                            <figure>
+                                <img src="Image/Image4.webp" alt="Fone">
+                            </figure>
+                            <h4>Skadar</h4>
+                            Montenegro
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>

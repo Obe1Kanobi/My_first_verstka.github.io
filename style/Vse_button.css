@@ -1,6 +1,4 @@
 .header__but {
-    margin-right: 18px;
-    margin-left: 18px;
     font-family: 'Inter';    /* шрифты */
     font-style: normal;
     font-weight: 500;
@@ -18,8 +16,4 @@
     border-radius: 8px;
     color: #F88F1D;
     background: transparent;
-  }
-
-  .left-btn {
-    margin-left: 0;
   }

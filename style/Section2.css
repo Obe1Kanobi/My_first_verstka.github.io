@@ -1,0 +1,25 @@
+.section-featured__flex {
+    margin-top: 1500px;
+}
+
+
+.section-featured__img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-featured__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-featured__header-view {
+    display: flex;
+    align-items: center;
+}
+
+.section-featured__text-raja {
+   
+}

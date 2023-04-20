@@ -1,0 +1,15 @@
+
+.section1__flex {
+    position: absolute;
+    left: 141px;
+    top: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1__right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
