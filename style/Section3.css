@@ -1,14 +1,13 @@
-
-.section-newway__flex {
+.section-guides__flex {
     position: absolute;
-    left: 141px;
-    top: 900px;
+    left: 250px;
+    top: 2100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.section-newway__right {
+.section-guides__right {
     display: flex;
     flex-direction: column;
     gap: 20px;

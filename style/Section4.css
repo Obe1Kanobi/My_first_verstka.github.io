@@ -1,0 +1,22 @@
+
+.section-testimonials__flex {
+    position: absolute;
+    left: 300px;
+    top: 2800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-testimonials__right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-testimonials__text-back {
+        position: absolute;
+        bottom: 110px;
+        color: rgba(0, 0, 0, 0.85);
+        mix-blend-mode: normal;
+}
