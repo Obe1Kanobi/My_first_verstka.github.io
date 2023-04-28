@@ -1,10 +1,8 @@
 .section-guides__flex {
-    position: absolute;
-    left: 250px;
-    top: 2100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 248px;
 }
 
 .section-guides__right {

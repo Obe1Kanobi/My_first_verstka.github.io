@@ -1,5 +1,5 @@
 .section-featured__flex {
-    margin-top: 1600px;
+    padding-bottom: 232px;
 }
 
 
@@ -14,6 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 56px;
 }
 
 .section-featured__header-view {
@@ -25,8 +26,31 @@
     margin-left: 11px;
 }
 
+.section-featured__img-raja{
+    position: relative;
+}
+
+.section-featured__img-fanjingshan{
+    position: relative;
+}
+
+.section-featured__img-skadar{
+    position: relative;
+}
+
+.section-featured__img-vevey{
+    position: relative;
+}
 
 .section-featured__text-raja {
+    color: black;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    font-size: 18px;
+}
+
+.section-featured__text-fanjingshan {
     color: black;
     position: absolute;
     left: 0px;
@@ -35,19 +59,10 @@
     padding: 3px 5px;
 }
 
-.section-featured__text-fanjingshan {
-    color: black;
-    position: absolute;
-    left: 376px;
-    bottom: 0px;
-    font-size: 18px;
-    padding: 3px 5px;
-}
-
 .section-featured__text-vevey {
     color: black;
     position: absolute;
-    left: 760px;
+    left: 0px;
     bottom: 0px;
     font-size: 18px;
     padding: 3px 5px;
@@ -57,10 +72,9 @@
 .section-featured__text-skadar {
     color: black;
     position: absolute;
-    left: 1145px;
+    left: 0px;
     bottom: 0px;
     font-size: 18px;
-    padding: 3px 5px;
 }
 
 .section-featured__text-back {
