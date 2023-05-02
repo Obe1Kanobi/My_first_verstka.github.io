@@ -1,0 +1,20 @@
+.mimg {
+    position: relative;
+    /* background-image: url("/Image/element2.webp"); */
+  }
+  
+.mimg::after {
+    position: absolute;
+    content: url("/Image/element2.webp");
+    padding-left: 112px;
+  }
+  
+.mimg2 {
+    position: relative;
+}
+
+.mimg2::before {
+    position: absolute;
+    content: url("/Image/element3.webp");
+    padding-right: 120px;
+}

@@ -1,6 +1,7 @@
 .section-footer {
     display: flex;
     padding-bottom: 171px;
+    width: 1300px;
 }
 
 .section-footer__logo {
@@ -10,7 +11,7 @@
 .section-footer__table {
     display: flex;
     justify-content: space-between;
-    padding-left: 108px;
+    padding-left: 164px;
     gap: 22px 50px;
 }
 
@@ -25,13 +26,13 @@
 .section-footer__column-one {
     display: flex;
     flex-direction: column;
-    padding-right: 120px;
+    padding-right: 159px;
 }
 
 .section-footer__column-two {
     display: flex;
     flex-direction: column;
-    padding-right: 120px;
+    padding-right: 132px;
 }
 
 .section-footer__column-three {

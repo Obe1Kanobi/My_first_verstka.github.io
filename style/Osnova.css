@@ -16,7 +16,6 @@ figure {
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 0% 11%;
 }
 
 @font-face {
