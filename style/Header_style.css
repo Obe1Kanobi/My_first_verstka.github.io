@@ -33,7 +33,9 @@
     display: flex;
     justify-content: space-between;
     margin-top: 72px;
+    gap: 0px 147px;
  }
+
 
  .Header__select1{
   display: grid;
