@@ -1,56 +1,68 @@
 #header {
-  padding-bottom: 286px;
+  padding-bottom: 270px;
   gap: 50px 10px;
+  position: relative;
 }
 
-  .header__header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 72px;
-  }
+.header__explore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 72px;
+}
 
-  .header-link {
-    margin-left: 34px;
-    margin-right: 34px;
-    color: #B8BECD;
-  }
+.header-link {
+  margin-left: 34px;
+  margin-right: 34px;
+  color: #b8becd;
+}
 
-  .header-link:hover {
-    color: black;
-  }
-  
-  a,
-  a:hover {
-    text-decoration: none;
-  }
+.header-link:hover {
+  color: black;
+}
 
-  input {
-    outline: none;
-  }
-  
-  .flex-container{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 72px;
-    gap: 0px 147px;
- }
+a,
+a:hover {
+  text-decoration: none;
+}
 
+input {
+  outline: none;
+}
 
- .Header__select1{
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 72px;
+  gap: 0px 147px;
+}
+
+.Header__select-selection {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
- }
+}
 
-select{
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   box-sizing: border-box;
   width: 220px;
   height: 52px;
-  border: 0.8px solid #AFB0B9;
+  border: 0.8px solid #afb0b9;
   border-radius: 6px;
- }
+  background: url("/Image/Frame.webp") 195px / 10px no-repeat;
+}
 
- .flex-container__left1{
+select::-ms-expand {
+  display: none; /* удалите стрелку по умолчанию в IE 10 и 11 */
+}
+
+option {
+  font-weight: 400px;
+}
+
+.flex-container__left {
   margin-top: 51px;
- }
+}

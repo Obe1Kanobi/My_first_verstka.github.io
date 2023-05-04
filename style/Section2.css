@@ -1,77 +1,76 @@
 .section-featured__flex {
-    padding-bottom: 232px;
+  padding-bottom: 173px;
+  position: relative;
 }
 
-
 .section-featured__img {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    gap: 0px 25px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 25px;
 }
 
 .section-featured__header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 56px;
 }
 
 .section-featured__header-view {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .section-featured__header-vector {
-    margin-left: 11px;
+  margin-left: 11px;
 }
 
-.section-featured__img-raja{
-    position: relative;
+.section-featured__img-raja {
+  position: relative;
 }
 
-.section-featured__img-fanjingshan{
-    position: relative;
+.section-featured__img-fanjingshan {
+  position: relative;
 }
 
-.section-featured__img-skadar{
-    position: relative;
+.section-featured__img-skadar {
+  position: relative;
 }
 
-.section-featured__img-vevey{
-    position: relative;
+.section-featured__img-vevey {
+  position: relative;
 }
 
 .section-featured__text-raja {
-    color: black;
-    position: absolute;
-    left: 0px;
-    bottom: 19px;
+  color: black;
+  position: absolute;
+  left: 0px;
+  bottom: 19px;
 }
 
 .section-featured__text-fanjingshan {
-    color: black;
-    position: absolute;
-    left: 0px;
-    bottom: 19px;
+  color: black;
+  position: absolute;
+  left: 0px;
+  bottom: 19px;
 }
 
 .section-featured__text-vevey {
-    color: black;
-    position: absolute;
-    left: 0px;
-    bottom: 19px;
+  color: black;
+  position: absolute;
+  left: 0px;
+  bottom: 19px;
 }
 
-
 .section-featured__text-skadar {
-    color: black;
-    position: absolute;
-    left: 0px;
-    bottom: 19px;
+  color: black;
+  position: absolute;
+  left: 0px;
+  bottom: 19px;
 }
 
 .section-featured__text-back {
-    position: absolute;
-    color: rgba(128, 145, 142, 1);
+  position: absolute;
+  color: rgba(128, 145, 142, 1);
 }

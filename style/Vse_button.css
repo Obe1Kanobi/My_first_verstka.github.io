@@ -1,23 +1,18 @@
 .header__but {
-    font-family: 'Inter';    /* шрифты */
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;        /*КОНЕЦ шрифтов */
-    line-height: 44px;
-    color: white;
-    background: #F88F1D;
-    border-radius: 8px;
-    border: 1px solid transparent;
-    width: 132px;
-    transition: all 0.1s linear;
-  }
-  .header__but:hover {
-    border: 1px solid #F88F1D;
-    border-radius: 8px;
-    color: #F88F1D;
-    background: transparent;
-  }
+  color: white;
+  background: #f88f1d;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  width: 132px;
+  transition: all 0.1s linear;
+}
+.header__but:hover {
+  border: 1px solid #f88f1d;
+  border-radius: 8px;
+  color: #f88f1d;
+  background: transparent;
+}
 
-  .link-for-section {
-    color: rgba(251, 143, 29, 1);
+.link-for-section {
+  color: rgba(251, 143, 29, 1);
 }

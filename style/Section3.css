@@ -1,13 +1,14 @@
 .section-guides__flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 248px;
-    gap: 0px 126px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding-bottom: 248px;
+  gap: 0px 126px;
 }
 
 .section-guides__right {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

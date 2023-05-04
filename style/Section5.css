@@ -1,23 +1,24 @@
 .section-trending__flex {
-    padding-bottom: 285px;
+  padding-bottom: 196px;
+  position: relative;
 }
 
 .section-trending__photo {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .section-trending__photo-img {
-    display: flex;
-    flex-direction: column;
-    padding: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
 }
 
 .section-trending__photo-img p {
-    color: #7D7987;
-    mix-blend-mode: normal;
+  color: #7d7987;
+  mix-blend-mode: normal;
 }
 
 .link-for-section a {
-    padding-top: 20px;
+  padding-top: 20px;
 }

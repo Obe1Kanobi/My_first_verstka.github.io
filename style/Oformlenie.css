@@ -1,20 +1,68 @@
-.mimg {
-    position: relative;
-    /* background-image: url("/Image/element2.webp"); */
-  }
-  
 .mimg::after {
-    position: absolute;
-    content: url("/Image/element2.webp");
-    padding-left: 112px;
-  }
-  
-.mimg2 {
-    position: relative;
+  /* элементы с первого блока(кружки, крестики) */
+  position: absolute;
+  content: url("/Image/element2.webp");
+  left: 430px;
+  top: 60px;
 }
 
 .mimg2::before {
-    position: absolute;
-    content: url("/Image/element3.webp");
-    padding-right: 120px;
+  /* элементы с первого блока(кружки, крестики) */
+  position: absolute;
+  content: url("/Image/element3.webp");
+  width: 25px;
+  height: 25px;
+  right: 200px;
+}
+
+.mimg3::before {
+  /* элементы с первого блока(кружки, крестики) */
+  position: absolute;
+  content: url("/Image/element3.webp");
+  width: 20px;
+  height: 20px;
+  left: 550px;
+  top: 100px;
+}
+
+.mimg4::after {
+  position: absolute;
+  content: url("/Image/element2.webp");
+  left: 750px;
+  bottom: 500px;
+}
+
+.mimg5::before {
+  position: absolute;
+  content: url("/Image/element3.webp");
+  left: 1200px;
+  top: 250px;
+}
+
+.mimg6::after {
+  position: absolute;
+  content: url("/Image/element3.webp");
+  left: 550px;
+  top: 50px;
+}
+
+.mimg7::before {
+  position: absolute;
+  content: url("/Image/element3.webp");
+  left: 1100px;
+  bottom: 70px;
+}
+
+.mimg8::after {
+  position: absolute;
+  content: url("/Image/element2.webp");
+  left: 600px;
+  bottom: 350px;
+}
+
+.mimg9::before {
+  position: absolute;
+  content: url("/Image/element3.webp");
+  left: 50px;
+  top: 47px;
 }

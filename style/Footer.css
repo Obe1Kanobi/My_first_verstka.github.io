@@ -1,41 +1,41 @@
 .section-footer {
-    display: flex;
-    padding-bottom: 171px;
-    width: 1300px;
+  display: flex;
+  padding-bottom: 81px;
+  width: 1300px;
 }
 
 .section-footer__logo {
-    gap: 50px 50px;
+  gap: 50px 50px;
 }
 
 .section-footer__table {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 164px;
-    gap: 22px 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 164px;
+  gap: 22px 50px;
 }
 
 .section-footer__logo-pic {
-    padding-bottom: 26px;
+  padding-bottom: 26px;
 }
 
 .section-footer__logo-p {
-    padding-bottom: 55px;
+  padding-bottom: 55px;
 }
 
 .section-footer__column-one {
-    display: flex;
-    flex-direction: column;
-    padding-right: 159px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 159px;
 }
 
 .section-footer__column-two {
-    display: flex;
-    flex-direction: column;
-    padding-right: 132px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 132px;
 }
 
 .section-footer__column-three {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }

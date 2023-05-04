@@ -1,23 +1,23 @@
-
 .section-testimonials__flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 248px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding-bottom: 228px;
 }
 
 .section-testimonials__right {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .section-testimonials__right img {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .section-testimonials__text-back {
-        bottom: 110px;
-        color: rgba(0, 0, 0, 0.85);
-        mix-blend-mode: normal;
+  bottom: 110px;
+  color: rgba(0, 0, 0, 0.85);
+  mix-blend-mode: normal;
 }

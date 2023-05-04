@@ -1,142 +1,139 @@
 * {
- padding: 0;
- box-sizing: border-box;
+  padding: 0;
+  box-sizing: border-box;
 }
 p {
-    margin: 0px;
+  margin: 0px;
 }
 
 figure {
-    margin: 0px 0px;
+  margin: 0px 0px;
 }
-
-
 
 .big-flex-container {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
 }
 
 @font-face {
-	font-family: 'Playfair Display';
-	font-style: normal;
-	font-weight: bold;
-	src: local('Playfair Display'),
-		url('fonts/Playfair Display-Bold.ttf') format('ttf')
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Playfair Display"),
+    url("fonts/Playfair Display-Bold.ttf") format("ttf");
 }
- 
+
 .text-1 {
-	/* текст для всех больших заголовков */
-	font-family: 'Playfair Display';
-	font-weight: bold;
-	font-size: 36px;
-	font-weight: 700;
-	line-height: 50px;
+  /* текст для всех больших заголовков */
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
 }
 
 @font-face {
-	font-family: 'Inter';
-	font-weight: bold;
-	src: local('Inter'),
-		url('fonts/Inter-Bold.ttf') format('ttf')
+  font-family: "Inter";
+  font-weight: bold;
+  src: local("Inter"), url("fonts/Inter-Bold.ttf") format("ttf");
 }
- 
+
 .text-2 {
-	/* текст для подписи имени мужика и founder circle */
-	font-family: 'Inter';
-	font-weight: 700;
-	font-size: 22px;
-	line-height: 48px;
+  /* текст для подписи имени мужика и founder circle */
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
 }
 
 .text-10 {
-	/* текст для заголовков в Trending stories */
-	font-family: 'Inter';
-	font-weight: 700;
-	font-size: 19px;
-	line-height: 30px;
+  /* текст для заголовков в Trending stories */
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 30px;
 }
 
-@font-face { 
-	font-family: 'Inter';
-	font-style: normal;
-	src: url('fonts/Inter.ttf') format('ttf') 
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  src: url("fonts/Inter.ttf") format("ttf");
 }
 
 .text-6 {
-	/* текст для абзацев под заголовками в Trending stories */
-	font-family: 'Inter';
-	font-weight: 400;
-	font-size: 15px;
-	line-height: 26px;
-	color: #7D7987;
+  /* текст для абзацев под заголовками в Trending stories */
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #7d7987;
 }
 
 .text-7 {
-	/* текст для кнопок в блоках 2 и 4, также view all в блоке 3, а также read more в Trening stories */
-	font-family: 'Inter';
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 60px;
+  /* текст для кнопок в блоках 2 и 4, также view all в блоке 3, а также read more в Trening stories */
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  /* line-height: 60px; */
 }
 
-.text-8 { 		
-	/* текст в Featured destinations заголовки под фото */
-	font-family: 'Inter';
-	font-weight: 600;
-	font-size: 17px;
-	line-height: 25px;
-	color: #042521;
+.text-8 {
+  /* текст в Featured destinations заголовки под фото */
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+  color: #042521;
 }
 
 .text-9 {
-	/* текст в Featured destinations текст под заголовками */
-	font-family: 'Inter';
-	font-weight: 500;
-	font-size: 15px;
-	line-height: 24px;
-	color: #80918E;
+  /* текст в Featured destinations текст под заголовками */
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #80918e;
 }
 
-@font-face { 
-	font-family: 'Mulish';
-	font-style: normal;
-	src: url('fonts/Mulish.ttf') format('ttf'); 
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  src: url("fonts/Mulish.ttf") format("ttf");
 }
 
 .text-5 {
-	/* текст для цитаты от мужика */
-	font-family: 'Mulish';
-	font-weight: 400;
-	font-size: 24px;
-	line-height: 36px;
+  /* текст для цитаты от мужика */
+  font-family: "Mulish";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
 }
- 
+
 .text-3 {
-	/* текст для абзацев в секторах 2 и 4 */
-	font-family: 'Mulish';
-	font-weight: 300;
-	font-size: 17px;
-	line-height: 30px;
-	color: #7D7987;
+  /* текст для абзацев в секторах 2 и 4 */
+  font-family: "Mulish";
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: #7d7987;
 }
 
 .text-4 {
-	/* текст для заголовков в футере */
-	font-family: 'Mulish';
-	font-style: bold;
-	font-weight: 700;
-	font-size: 19px;
-	line-height: 60px;
+  /* текст для заголовков в футере */
+  font-family: "Mulish";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 60px;
 }
 
 .text-4-3 {
-	/* текст для ссылок и абзаца слева в футере */
-	font-family: 'Mulish';
-	font-weight: 300;
-	font-size: 18px;
-	line-height: 38px;
-	color: #848484;
+  /* текст для ссылок и абзаца слева в футере */
+  font-family: "Mulish";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: #848484;
 }
-
