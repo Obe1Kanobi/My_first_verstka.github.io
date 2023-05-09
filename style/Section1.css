@@ -3,12 +3,8 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 292px;
-  margin-top: 245px;
-  margin-right: 225px;
-}
-
-.newway__left {
-  padding-right: 102px;
+  margin-top: 244px;
+  margin-right: 205px;
   margin-left: 54px;
 }
 
@@ -16,8 +12,9 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  padding-left: 102px;
 }
 
 .newway__btn {
-  margin-top: 39px;
+  margin-top: 29px;
 }

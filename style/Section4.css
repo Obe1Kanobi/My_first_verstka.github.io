@@ -1,13 +1,11 @@
 .testimonials__flex {
   display: flex;
-  position: relative;
   padding-top: 134px;
   padding-bottom: 285px;
   margin-left: 152px;
 }
 
 .testimonials__right {
-  display: flex;
   flex-direction: column;
 }
 
@@ -16,7 +14,7 @@
 }
 
 .testimonials__text--right {
-  margin-top: 37px;
+  margin-top: 35px;
 }
 
 .testimonials__text--edward {
