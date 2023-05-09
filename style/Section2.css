@@ -12,11 +12,6 @@
   margin-right: 50px;
 }
 
-.featured__img {
-  display: flex;
-  justify-content: space-between;
-}
-
 .featured__header-view {
   display: flex;
   align-items: center;
@@ -24,6 +19,17 @@
 
 .featured__header-vector {
   margin-left: 11px;
+}
+
+.featured__img {
+  display: flex;
+  padding-left: 50px;
+  gap: 0px 26px;
+}
+
+.featured__img-icon {
+  position: relative;
+  display: flex;
 }
 
 .featured__text {
