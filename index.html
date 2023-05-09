@@ -14,137 +14,134 @@
     <link rel="stylesheet" type="text/css" href="style/Footer.css">
     <link rel="stylesheet" type="text/css" href="style/Oformlenie.css">
   </head>
-  <body class="big-flex-container">
+  <body>
     <header id="header">
-      <div class="header__explore">
-        <figure class="header__logo">
-          <img class="header__logo-pic" src="Image/logo.svg"
-            width="41" alt="Logo">
-        </figure>
-        <nav class="header__navbar">
-          <a class="header-link text-6" href="">Home</a>
-          <a class="header-link text-6" href="">Destination</a>
-          <a class="header-link text-6" href="">About</a>
-          <a class="header-link text-6" href="">Partner</a>
-          <button class="header__but" style="width: 132px; height: 44px;">Login</button>
-          <button class="header__but" style="width: 132px; height: 44px;">Register</button>
-        </nav>
+      <div class="container header__container">
+        <div class="header__explore">
+          <figure class="header__logo">
+            <img src="Image/logo.svg"
+              style="width: 41px; height: 41px;" alt="Logo">
+          </figure>
+          <nav class="header__navbar">
+            <div class="header__nvb">
+              <a class="text-6" href="">Home</a>
+              <a class="text-6" href="">Destination</a>
+              <a class="text-6" href="">About</a>
+              <a class="text-6" href="">Partner</a>
+            </div>
+            <div class="header__btn-wrapper">
+              <button class="header__btn header__btn--132">Login</button>
+              <button class="header__btn header__btn--132">Register</button>
+            </div>
+          </nav>
+        </div>
       </div>
-      <div class="flex-container mimg mimg2">
-        <div class="flex-container__left">
-          <h1 class="text-1" style="font-size: 64px; line-height:
+    </header>
+    <section class="explore">
+      <div class="container explore__container">
+        <div class="explore__left">
+          <h1 class="text-1 mimg" style="font-size: 67px; line-height:
             80px;">
             Explore and<br> Travel
           </h1>
           <h3 class="text-6" style="font-size: 22px;
-            font-weight: 600; color: black;">
+            font-weight: 600; color: black; padding-top: 71px;">
             Holiday finder
           </h3>
-          <div class="Header__select-selection">
-            <select class="text-6" style="font-weight:400; font-size: 15px;">
+          <div class="explore__select">
+            <select class="text-6 text-6--select">
               <option value="Location">Location</option>
             </select>
-            <select class="text-6" style="font-weight:400;
-              font-size: 15px;">
+            <select class="text-6 text-6--select">
               <option value="Activity">Activity</option>
             </select>
-            <select class="text-6" style="font-weight:400;
-              font-size: 15px;">
+            <select class="text-6 text-6--select">
               <option value="Grade">Grade</option>
             </select>
-            <select class="text-6" style="font-weight:400;
-              font-size: 15px;">
+            <select class="text-6 text-6--select">
               <option value="Date">Date</option>
             </select>
           </div>
-          <div class="flex-container__left">
-            <button type="button" class="header__but
-              text-5 mimg3" style="font-weight: 700;
-              font-size: 17px; width: 180px; height: 52px;">Explore</button>
-          </div>
+          <button type="button" class="explore__btn header__btn text-5 mimg2"
+            style="font-size: 17px; line-height: 0px;">Explore</button>
         </div>
-        <div class="flex-container__right">
-          <figure>
-            <img src="Image/thousand-01 1.webp" alt="Fone">
-          </figure>
+        <div class="explore__right">
+          <img src="Image/thousand-01 1.webp" alt="Fone">
         </div>
       </div>
-    </header>
+    </section>
     <main>
-      <section class="section-newway">
-        <div class="section-newway__flex mimg4 mimg5">
-          <figure>
+      <section class="newway">
+        <div class="container newway__flex mimg4 mimg5">
+          <div class="newway__left">
             <img src="Image/Thousand-02 1.webp" alt="Fone">
-          </figure>
-          <div class="section-newway__right">
-            <div class="section-newway__text-right">
-              <h2 class="text-1">A new way to explore the <br>
-                world</h2>
+          </div>
+          <div class="newway__right">
+            <h2 class="text-1" style="margin-bottom: 20px;">
+              A new way to explore the world
+            </h2>
+            <div class="newway__text-right">
               <p class="text-3" style="font-size: 17px;
                 line-height: 30px;">
-                For decades travellers have reached for Lonely
-                Planet <br>
-                books when looking to plan and execute their
-                perfect <br>
-                trip, but now, they can also let Lonely Planet
-                Experiences <br>
+                For decades travellers have reached for Lonely Planet books when
+                looking to plan and execute their perfect trip, but now, they
+                can also let Lonely Planet Experiences
                 lead the way</p>
             </div>
-            <div class="section-newway__button">
-              <button type="button" class="header__but text-7" style="width:
-                164px; height: 48px;">Learn
-                more</button>
-            </div>
+            <button type="button" class="header__btn newway__btn text-7"
+              style="width:
+              164px; height: 48px;">Learn
+              more</button>
           </div>
         </div>
       </section>
-      <section class="section-featured">
-        <div class="section-featured__flex mimg6 mimg7">
-          <div class="section-featured__header">
-            <a class="text-1">Featured destinations</a>
-            <div class="section-featured__header-view">
+      <section class="featured">
+        <div class="container featured__flex mimg6 mimg7">
+          <div class="featured__header">
+            <a class="text-1" style="letter-spacing: 1px">Featured destinations</a>
+            <div class="featured__header-view">
               <a class="link-for-section text-7" href=""
                 style="font-size: 17px;">View all</a>
-              <figure class="section-featured__header-vector">
+              <div class="featured__header-vector">
                 <img src="Image/Vector 1.webp" alt="Fone">
-              </figure>
+              </div>
             </div>
           </div>
-          <div class="section-featured__img">
-            <div class="section-featured__img-raja">
-              <figure>
+          <div class="featured__img">
+            <div>
+              <div>
                 <img src="Image/Image.webp" alt="Fone">
-              </figure>
-              <div class="section-featured__text-raja">
+              </div>
+              <div class="featured__text">
                 <a class="text-8">Raja Ampat</a>
-                <div class="section-featured__text-back text-9">Indonesia</div>
+                <div class="featured__text-back text-9">Indonesia</div>
               </div>
             </div>
-            <div class="section-featured__img-fanjingshan">
-              <figure>
+            <div>
+              <div>
                 <img src="Image/Image2.webp" alt="Fone">
-              </figure>
-              <div class="section-featured__text-fanjingshan">
+              </div>
+              <div class="featured__text">
                 <a class="text-8">Fanjingshan</a>
-                <div class="section-featured__text-back text-9">China</div>
+                <div class="featured__text-back text-9">China</div>
               </div>
             </div>
-            <div class="section-featured__img-vevey">
-              <figure>
+            <div>
+              <div>
                 <img src="Image/Image3.webp" alt="Fone">
-              </figure>
-              <div class="section-featured__text-vevey">
+              </div>
+              <div class="featured__text">
                 <a class="text-8">Vevey</a>
-                <div class="section-featured__text-back text-9">Switzerland</div>
+                <div class="featured__text-back text-9">Switzerland</div>
               </div>
             </div>
-            <div class="section-featured__img-skadar">
-              <figure>
+            <div>
+              <div>
                 <img src="Image/Image4.webp" alt="Fone">
-              </figure>
-              <div class="section-featured__text-skadar">
+              </div>
+              <div class="featured__text">
                 <a class="text-8">Skadar</a>
-                <div class="section-featured__text-back text-9">Montenegro</div>
+                <div class="featured__text-back text-9">Montenegro</div>
               </div>
             </div>
           </div>
@@ -207,7 +204,7 @@
       </section>
       <section class="section-trending">
         <div class="section-trending__flex">
-          <a class="text-1">Trending stories</a>
+          <a class="text-1 mimg10">Trending stories</a>
           <div class="section-trending__photo">
             <figure class="section-trending__photo-img">
               <img src="Image/image12.webp" alt="Fone"
@@ -257,7 +254,7 @@
                 do list for a while, the good news<br>
                 is: it’s never too late...
               </p>
-              <a class="link-for-section text-7" href=""
+              <a class="link-for-section text-7 mimg11" href=""
                 style="font-size: 15px;
                 line-height: 28px;">Read more</a>
             </figure>
@@ -310,6 +307,23 @@
         </div>
       </div>
       <hr>
+      <div class="section-footer__icon">
+        <figure class="section-footer__icons">
+          <img src="Image/twitter.webp" alt="Fone">
+        </figure>
+        <figure class="section-footer__icons">
+          <img src="Image/facebook.webp" alt="Fone">
+        </figure>
+        <figure class="section-footer__icons">
+          <img src="Image/inst.webp" alt="Fone">
+        </figure>
+        <figure class="section-footer__icons">
+          <img src="Image/in.webp" alt="Fone">
+        </figure>
+        <figure class="section-footer__icons">
+          <img src="Image/youtube.webp" alt="Fone">
+        </figure>
+      </div>
     </footer>
   </body>
 </html>

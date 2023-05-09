@@ -1,6 +1,7 @@
 * {
   padding: 0;
   box-sizing: border-box;
+  margin: 0;
 }
 p {
   margin: 0px;
@@ -10,11 +11,26 @@ figure {
   margin: 0px 0px;
 }
 
-.big-flex-container {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  width: 100%;
+body {
+  font-family: "Inter";
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  width: 220px;
+  height: 52px;
+  border: 0.8px solid #afb0b9;
+  border-radius: 6px;
+  background: url("/Image/Frame.webp") 195px no-repeat;
+  background-size: 10px;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
 }
 
 @font-face {
@@ -28,7 +44,7 @@ figure {
 .text-1 {
   /* текст для всех больших заголовков */
   font-family: "Playfair Display";
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 36px;
   font-weight: 700;
   line-height: 50px;
@@ -42,7 +58,6 @@ figure {
 
 .text-2 {
   /* текст для подписи имени мужика и founder circle */
-  font-family: "Inter";
   font-weight: 700;
   font-size: 22px;
   line-height: 48px;
@@ -50,7 +65,6 @@ figure {
 
 .text-10 {
   /* текст для заголовков в Trending stories */
-  font-family: "Inter";
   font-weight: 700;
   font-size: 19px;
   line-height: 30px;
@@ -64,16 +78,21 @@ figure {
 
 .text-6 {
   /* текст для абзацев под заголовками в Trending stories */
-  font-family: "Inter";
+
   font-weight: 400;
   font-size: 15px;
   line-height: 26px;
   color: #7d7987;
 }
 
+.text-6--select {
+  font-weight: 400;
+  font-size: 15px;
+}
+
 .text-7 {
   /* текст для кнопок в блоках 2 и 4, также view all в блоке 3, а также read more в Trening stories */
-  font-family: "Inter";
+
   font-weight: 600;
   font-size: 16px;
   /* line-height: 60px; */
@@ -81,7 +100,7 @@ figure {
 
 .text-8 {
   /* текст в Featured destinations заголовки под фото */
-  font-family: "Inter";
+
   font-weight: 600;
   font-size: 17px;
   line-height: 25px;
@@ -90,7 +109,7 @@ figure {
 
 .text-9 {
   /* текст в Featured destinations текст под заголовками */
-  font-family: "Inter";
+
   font-weight: 500;
   font-size: 15px;
   line-height: 24px;

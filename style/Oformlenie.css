@@ -2,8 +2,8 @@
   /* элементы с первого блока(кружки, крестики) */
   position: absolute;
   content: url("/Image/element2.webp");
-  left: 430px;
-  top: 60px;
+  left: 450px;
+  top: 260px;
 }
 
 .mimg2::before {
@@ -11,8 +11,7 @@
   position: absolute;
   content: url("/Image/element3.webp");
   width: 25px;
-  height: 25px;
-  right: 200px;
+  left: 450px;
 }
 
 .mimg3::before {
@@ -65,4 +64,18 @@
   content: url("/Image/element3.webp");
   left: 50px;
   top: 47px;
+}
+
+.mimg10::after {
+  position: absolute;
+  content: url("/Image/element2.webp");
+  left: 358px;
+  bottom: 700px;
+}
+
+.mimg11::before {
+  position: absolute;
+  content: url("/Image/element3.webp");
+  left: 850px;
+  bottom: 150px;
 }

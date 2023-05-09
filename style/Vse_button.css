@@ -1,12 +1,12 @@
-.header__but {
+.header__btn {
   color: white;
   background: #f88f1d;
   border-radius: 8px;
   border: 1px solid transparent;
-  width: 132px;
   transition: all 0.1s linear;
+  padding: 13px 36px;
 }
-.header__but:hover {
+.header__btn:hover {
   border: 1px solid #f88f1d;
   border-radius: 8px;
   color: #f88f1d;

@@ -2,6 +2,7 @@
   display: flex;
   padding-bottom: 81px;
   width: 1300px;
+  background: #f9f9fb;
 }
 
 .section-footer__logo {
@@ -38,4 +39,12 @@
 .section-footer__column-three {
   display: flex;
   flex-direction: column;
+}
+
+.section-footer__icon {
+  display: flex;
+  gap: 0px 35px;
+  padding-bottom: 32px;
+  padding-top: 30px;
+  align-items: center;
 }

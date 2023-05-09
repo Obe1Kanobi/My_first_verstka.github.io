@@ -1,23 +1,43 @@
 #header {
-  padding-bottom: 270px;
-  gap: 50px 10px;
   position: relative;
+  padding-top: 43px;
 }
 
 .header__explore {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 72px;
+  margin-bottom: 113px;
 }
 
-.header-link {
+.header__link {
   margin-left: 34px;
   margin-right: 34px;
   color: #b8becd;
 }
 
-.header-link:hover {
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nvb {
+  display: flex;
+  gap: 0px 43px;
+  margin-right: 34px;
+}
+
+.header__btn-wrapper {
+  display: flex;
+  gap: 0px 18px;
+}
+
+.header__btn--132 {
+  width: 132px;
+}
+
+.header__link:hover {
   color: black;
 }
 
@@ -30,39 +50,34 @@ input {
   outline: none;
 }
 
-.flex-container {
+.explore__container {
+  position: relative;
   display: flex;
   justify-content: space-between;
-  margin-top: 72px;
   gap: 0px 147px;
-}
-
-.Header__select-selection {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-}
-
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  box-sizing: border-box;
-  width: 220px;
-  height: 52px;
-  border: 0.8px solid #afb0b9;
-  border-radius: 6px;
-  background: url("/Image/Frame.webp") 195px / 10px no-repeat;
 }
 
 select::-ms-expand {
   display: none; /* удалите стрелку по умолчанию в IE 10 и 11 */
 }
 
-option {
-  font-weight: 400px;
+.explore__select {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-top: 72px;
+  margin-bottom: 54px;
 }
 
-.flex-container__left {
-  margin-top: 51px;
+.explore__right {
+  position: relative;
+  bottom: 38px;
+}
+
+.explore__btn {
+  font-weight: 700;
+  font-size: 17px;
+  width: 180px;
+  height: 52px;
+  line-height: 0px;
 }

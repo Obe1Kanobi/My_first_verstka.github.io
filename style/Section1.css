@@ -1,16 +1,23 @@
-.section-newway__flex {
+.newway__flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
-  width: 1300px;
-  padding-bottom: 262px;
-  gap: 0px 102px;
+  margin-bottom: 292px;
+  margin-top: 245px;
+  margin-right: 225px;
 }
 
-.section-newway__right {
+.newway__left {
+  padding-right: 102px;
+  margin-left: 54px;
+}
+
+.newway__right {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding-left: 102px;
+}
+
+.newway__btn {
+  margin-top: 39px;
 }
