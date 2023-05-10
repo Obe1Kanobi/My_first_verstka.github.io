@@ -1,4 +1,5 @@
 .guides__flex {
+  position: relative;
   display: flex;
   margin-bottom: 218px;
   margin-left: 151px;
@@ -6,19 +7,23 @@
 }
 
 .guides__right {
+  position: relative;
   display: flex;
   flex-direction: column;
 }
 
 .guides__text-right {
+  position: relative;
   margin-top: 20px;
 }
 
 .guides__btn {
+  position: relative;
   margin-top: 39px;
 }
 
 .guides__img {
+  position: relative;
   margin-left: 170px;
   margin-top: -153px;
 }

@@ -2,80 +2,118 @@
   /* элементы с первого блока(кружки, крестики) */
   position: absolute;
   content: url("/Image/element2.webp");
-  left: 450px;
-  top: 260px;
+  left: 465px;
+  bottom: 603px;
 }
 
 .mimg2::before {
   /* элементы с первого блока(кружки, крестики) */
   position: absolute;
   content: url("/Image/element3.webp");
-  width: 25px;
-  left: 450px;
+  top: 581px;
+  left: 539px;
 }
 
 .mimg3::before {
   /* элементы с первого блока(кружки, крестики) */
   position: absolute;
   content: url("/Image/element3.webp");
-  width: 20px;
-  height: 20px;
-  left: 550px;
-  top: 100px;
+  left: -106px;
+  top: 293px;
 }
 
 .mimg4::after {
+  /* эл-ты в New way */
   position: absolute;
   content: url("/Image/element2.webp");
-  left: 750px;
-  bottom: 500px;
+  left: 737px;
+  bottom: -56px;
 }
 
 .mimg5::before {
+  /* эл-ты в New way */
   position: absolute;
   content: url("/Image/element3.webp");
-  left: 1200px;
-  top: 250px;
+  right: 61px;
+  top: 254px;
 }
 
 .mimg6::after {
+  /* эл-ты в Featured */
   position: absolute;
   content: url("/Image/element3.webp");
-  left: 550px;
-  top: 50px;
+  left: 978px;
+  bottom: 620px;
 }
 
 .mimg7::before {
+  /* эл-ты в Featured */
   position: absolute;
   content: url("/Image/element3.webp");
-  left: 1100px;
-  bottom: 70px;
+  left: 500px;
+  top: 378px;
 }
 
 .mimg8::after {
+  /* эл-ты в Featured */
   position: absolute;
   content: url("/Image/element2.webp");
-  left: 600px;
-  bottom: 350px;
+  left: -70px;
+  top: 298px;
 }
 
-.mimg9::before {
+.mimg9::after {
+  /* эл-ты в Guides */
   position: absolute;
-  content: url("/Image/element3.webp");
-  left: 50px;
-  top: 47px;
+  content: url("/Image/element2.webp");
+  top: 267px;
+  left: 419px;
 }
 
 .mimg10::after {
-  position: absolute;
-  content: url("/Image/element2.webp");
-  left: 358px;
-  bottom: 700px;
-}
-
-.mimg11::before {
+  /* эл-ты в Guides */
   position: absolute;
   content: url("/Image/element3.webp");
-  left: 850px;
-  bottom: 150px;
+  bottom: 429px;
+  left: 42px;
+}
+
+.mimg11::after {
+  /* эл-ты в Guides */
+  position: absolute;
+  content: url("/Image/element2.webp");
+  left: 656px;
+  top: 32px;
+}
+
+.mimg12::after {
+  /* эл-ты в Testimonial */
+  position: absolute;
+  content: url("/Image/element3.webp");
+  right: 523px;
+  top: 174px;
+}
+
+.mimg13::after {
+  /* эл-ты в Trending */
+  position: absolute;
+  content: url("/Image/element2.webp");
+  left: 403px;
+  bottom: 75px;
+}
+
+.mimg14::after {
+  /* эл-ты в Trending */
+  position: absolute;
+  content: url("/Image/element3.webp");
+  right: 338px;
+  top: 15px;
+}
+
+.mimg15::after {
+  /* эл-ты в Trending */
+  position: absolute;
+  content: url("/Image/element3.webp");
+  top: 79px;
+  left: 167px;
 }

@@ -1,11 +1,12 @@
 .trending__flex {
   position: relative;
-  margin-bottom: 448px;
+  margin-bottom: 269px;
   margin-left: 152px;
   margin-right: 200px;
 }
 
 .trending__header {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,14 +15,16 @@
 .trending__header-view {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  margin-right: -46px;
+  margin-top: 6px;
 }
 
 .trending__header-vector {
-  display: flex;
+  margin-left: 11px;
 }
 
 .trending__photo {
+  position: relative;
   display: flex;
   justify-content: space-between;
   gap: 0px 25px;
@@ -29,27 +32,30 @@
 }
 
 .trending__subtitle {
+  position: relative;
   display: flex;
   margin-top: 14px;
 }
 
 .trending__subtitle--paragraph {
+  position: relative;
   display: flex;
   margin-top: 13px;
 }
 
 .trending__photo-img {
+  position: relative;
   display: flex;
   width: 261px;
   height: 231px;
 }
 
-.link-for-section {
-  display: flex;
-  margin-top: 23px;
-}
-
-.trending__photo-img p {
+.readmore .trending__photo-img p {
   color: #7d7987;
   mix-blend-mode: normal;
+}
+
+.readmore {
+  display: flex;
+  margin-top: 20px;
 }

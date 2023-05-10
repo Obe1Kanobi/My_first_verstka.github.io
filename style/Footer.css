@@ -1,19 +1,19 @@
-.section-footer {
-  display: flex;
-  padding-bottom: 81px;
-  width: 1300px;
-  background: #f9f9fb;
+.footer {
+  padding-top: 78px;
+  background-color: #f9f9fb;
 }
 
-.section-footer__logo {
-  gap: 50px 50px;
+.section-footer {
+  display: flex;
+  padding-bottom: 27px;
 }
 
 .section-footer__table {
   display: flex;
   justify-content: space-between;
-  padding-left: 164px;
-  gap: 22px 50px;
+  margin-left: 198px;
+  margin-top: -7px;
+  margin-bottom: 46px;
 }
 
 .section-footer__logo-pic {
@@ -27,13 +27,13 @@
 .section-footer__column-one {
   display: flex;
   flex-direction: column;
-  padding-right: 159px;
+  padding-right: 173px;
 }
 
 .section-footer__column-two {
   display: flex;
   flex-direction: column;
-  padding-right: 132px;
+  padding-right: 148px;
 }
 
 .section-footer__column-three {
@@ -44,7 +44,8 @@
 .section-footer__icon {
   display: flex;
   gap: 0px 35px;
-  padding-bottom: 32px;
-  padding-top: 30px;
+  margin-bottom: 32px;
+  margin-top: 30px;
+  margin-left: 554px;
   align-items: center;
 }

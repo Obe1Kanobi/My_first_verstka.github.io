@@ -12,9 +12,14 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  padding-left: 102px;
+  margin-left: 102px;
+  margin-bottom: 12px;
 }
 
-.newway__btn {
-  margin-top: 29px;
+.newway__right--title {
+  margin-bottom: 20px;
+}
+
+.newway__right--paragraph {
+  margin-bottom: 39px;
 }

@@ -1,4 +1,5 @@
 .testimonials__flex {
+  position: relative;
   display: flex;
   padding-top: 134px;
   padding-bottom: 285px;
@@ -6,14 +7,17 @@
 }
 
 .testimonials__right {
+  position: relative;
   flex-direction: column;
 }
 
 .testimonials__right img {
+  position: relative;
   padding-bottom: 30px;
 }
 
 .testimonials__text--right {
+  position: relative;
   margin-top: 35px;
 }
 
