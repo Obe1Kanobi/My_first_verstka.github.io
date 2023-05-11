@@ -1,9 +1,14 @@
 .testimonials__flex {
   position: relative;
   display: flex;
-  padding-top: 134px;
+  padding-top: 135px;
   padding-bottom: 285px;
-  margin-left: 152px;
+  margin-left: 180px;
+}
+
+.testimonials__title {
+  position: absolute;
+  bottom: 552px;
 }
 
 .testimonials__right {
@@ -18,7 +23,7 @@
 
 .testimonials__text--right {
   position: relative;
-  margin-top: 35px;
+  margin-top: 84px;
 }
 
 .testimonials__text--edward {

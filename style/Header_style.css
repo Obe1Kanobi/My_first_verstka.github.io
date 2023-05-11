@@ -24,8 +24,26 @@
 
 .header__nvb {
   display: flex;
-  gap: 0px 43px;
   margin-right: 34px;
+  margin-bottom: 3px;
+}
+
+.header__nvb--home {
+  margin-right: 38px;
+}
+
+.header__nvb--destinations {
+  margin-right: 36px;
+  letter-spacing: 0.5px;
+}
+
+.header__nvb--about {
+  margin-right: 36px;
+}
+
+.header__nvb--parthner {
+  margin-right: 2px;
+  letter-spacing: 0.5px;
 }
 
 .header__btn-wrapper {

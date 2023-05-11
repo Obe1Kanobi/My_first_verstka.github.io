@@ -1,7 +1,7 @@
 .trending__flex {
   position: relative;
-  margin-bottom: 269px;
-  margin-left: 152px;
+  margin-bottom: 271px;
+  margin-left: 180px;
   margin-right: 200px;
 }
 
@@ -15,8 +15,8 @@
 .trending__header-view {
   display: flex;
   justify-content: space-between;
-  margin-right: -46px;
-  margin-top: 6px;
+  margin-right: -19px;
+  margin-top: 13px;
 }
 
 .trending__header-vector {

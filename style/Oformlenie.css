@@ -34,8 +34,8 @@
   /* эл-ты в New way */
   position: absolute;
   content: url("/Image/element3.webp");
-  right: 61px;
-  top: 254px;
+  right: 87px;
+  top: 266px;
 }
 
 .mimg6::after {
@@ -114,6 +114,6 @@
   /* эл-ты в Trending */
   position: absolute;
   content: url("/Image/element3.webp");
-  top: 79px;
-  left: 167px;
+  top: 501px;
+  left: 739px;
 }
